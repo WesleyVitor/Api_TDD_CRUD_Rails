@@ -7,7 +7,7 @@ class Weapon < ApplicationRecord
 
 
     def current_power
-        return self.power_base + (level*power_step)
+        return self.power_base + ((level-1)*power_step)
     end
     
     def title
