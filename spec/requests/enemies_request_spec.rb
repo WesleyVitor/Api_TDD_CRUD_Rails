@@ -10,6 +10,7 @@ RSpec.describe "Enemies", type: :request do
       it "if exists return code 200" do
         #enemy = create(:enemy)
         #enemy_attributes = attributes_for(:enemy)
+        puts "ALgo",enemy_attributes[:name]
         put "/enemies/#{inimigo.id}",params: enemy_attributes
         expect(response).to have_http_status(200)
       end

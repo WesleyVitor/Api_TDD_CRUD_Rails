@@ -14,15 +14,17 @@ Things you may want to cover:
     - gem 'factory_bot_rails'
 ## Configuration
     
-## Database creation
+## Table creation
     rails db:migrate
-
-## Database initialization
 
 ## How to run the test suite
     bundle exec rspec
-## Services (job queues, cache servers, search engines, etc.)
 
-## Deployment instructions
+## Links Importantes
+    - https://www.youtube.com/playlist?list=PLdDT8if5attGc3fgFsFe5cvV9MwlVFNLW
+    - https://github.com/rspec/rspec-rails
+    - https://github.com/ffaker/ffaker
+    - https://github.com/thoughtbot/factory_bot_rails
+
 
 * ...
